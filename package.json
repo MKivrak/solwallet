@@ -1,0 +1,13 @@
+{
+  "name": "solwallet",
+  "version": "1.0.0",
+  "description": "Connect a Solana wallet from plain JavaScript. No dependencies, no build step, no framework.",
+  "type": "module",
+  "main": "solwallet.js",
+  "exports": { ".": "./solwallet.js" },
+  "files": ["solwallet.js", "README.md", "LICENSE"],
+  "keywords": ["solana", "wallet", "phantom", "solflare", "backpack", "vanilla", "no-dependencies"],
+  "license": "MIT",
+  "sideEffects": false,
+  "scripts": { "test": "node test.mjs" }
+}
